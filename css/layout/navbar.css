@@ -1,0 +1,52 @@
+.header {
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    
+    height: 115px;
+
+    background-color: #3a2417;
+
+    border-top: 8px solid #6fa4d8;
+    border-bottom: 8px solid #6fa4d8;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 250px;
+    width: 300px;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    color: #f5f1ea;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.socials a {
+    color: #f5f1ea;
+    text-decoration: none;
+
+    font-size: 25px;
+}

@@ -1,5 +1,10 @@
 @import url(css/style.css);
 
 @import url(css/layout/navbar.css);
+
 @import url(css/layout/hero.css);
 @import url(css/layout/about.css);
+@import url(css/layout/featureedhorse.css);
+@import url(css/layout/expertise.css);
+
+@import url(css/layout/aboutPage.css);

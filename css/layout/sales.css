@@ -1,0 +1,138 @@
+/* SALES INTRO */
+
+.sales-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+    padding: 120px 10%;
+    background-color: #f5f1ea;
+    align-items: center;
+}
+
+.sales-intro-image {
+    height: 600px;
+    overflow: hidden;
+}
+
+.sales-intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sales-intro-content {
+    max-width: 500px;
+}
+
+.sales-intro-content > span {
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.sales-intro-content h2 {
+    margin: 25px 0 35px;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.sales-intro-content p {
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* SALES FILTER */
+
+.sales-filter {
+    background-color: #241913;
+    color: #f5f1ea;
+    padding: 100px 10%;
+}
+
+.sales-filter-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sales-filter-header span {
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.sales-filter-header h2 {
+    margin-top: 25px;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.filter-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filter-group label {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    color: #f5f1ea;
+    border: 1px solid rgba(245, 241, 234, 0.4);
+    font-family: Georgia, serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filter-group select option {
+    color: #241913;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .sales-intro {
+        grid-template-columns: 1fr;
+        padding: 80px 8%;
+        gap: 50px;
+    }
+
+    .sales-intro-image {
+        height: 450px;
+    }
+
+    .sales-intro-content h2 {
+        font-size: 32px;
+    }
+
+    .sales-filter {
+        padding: 80px 8%;
+    }
+
+    .sales-filter-header h2 {
+        font-size: 32px;
+    }
+
+    .filter-options {
+        grid-template-columns: 1fr;
+    }
+
+}

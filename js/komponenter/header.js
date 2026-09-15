@@ -13,9 +13,8 @@ export function createHeader(){
                 <a href="about.html">ABOUT</a>
                 <a href="showHorse.html">SHOW HORSE</a>
                 <a href="breeding.html">BREEDING</a>
-                <a href="#">SALES</a>
-                <a href="#">NEWS</a>
-                <a href="#">CONTACT</a>
+                <a href="sales.html">SALES</a>
+                <a href="contact.html">CONTACT</a>
             </nav>
 
             <div class="socials">

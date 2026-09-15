@@ -1,0 +1,62 @@
+[
+  {
+    "name": "LUNA AF ROSENHOLM",
+    "breed": "KWPN",
+    "sex": "MARE",
+    "age": 7,
+    "height": "168 CM",
+    "discipline": "DRESSAGE",
+    "price": "€45.000",
+    "image": "./assets/img/equoria_horse_card_1.png"
+  },
+  {
+    "name": "VALENTINO Z",
+    "breed": "KWPN",
+    "sex": "STALLION",
+    "age": 8,
+    "height": "172 CM",
+    "discipline": "DRESSAGE",
+    "price": "€80.000",
+    "image": "./assets/img/equoria_horse_card_2.png"
+  },
+  {
+    "name": "ROSENHOLM'S LILY",
+    "breed": "KWPN",
+    "sex": "MARE",
+    "age": 6,
+    "height": "166 CM",
+    "discipline": "JUMPING",
+    "price": "€55.000",
+    "image": "./assets/img/equoria_horse_card_3.png"
+  },
+  {
+    "name": "ARABELLA Z",
+    "breed": "HOLSTEINER",
+    "sex": "MARE",
+    "age": 7,
+    "height": "170 CM",
+    "discipline": "JUMPING",
+    "price": "€62.000",
+    "image": "./assets/img/equoria_horse_card_1.png"
+  },
+  {
+    "name": "DON VINCENZO",
+    "breed": "KWPN",
+    "sex": "GELDING",
+    "age": 9,
+    "height": "175 CM",
+    "discipline": "DRESSAGE",
+    "price": "€48.000",
+    "image": "./assets/img/equoria_horse_card_2.png"
+  },
+  {
+    "name": "ELLA ROSA",
+    "breed": "HANNOVERANER",
+    "sex": "MARE",
+    "age": 5,
+    "height": "165 CM",
+    "discipline": "EVENTING",
+    "price": "€38.000",
+    "image": "./assets/img/equoria_horse_card_3.png"
+  }
+]

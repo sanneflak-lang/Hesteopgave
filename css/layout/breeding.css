@@ -1,0 +1,281 @@
+
+
+.breeding-hero {
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+}
+
+.breeding-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.breeding-hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(36, 25, 19, 0.45);
+}
+
+.breeding-hero-content {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+
+    text-align: center;
+    color: #f5f1ea;
+}
+
+.breeding-hero-content span {
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+.breeding-hero-content h1 {
+    margin-top: 25px;
+
+    font-family: Georgia, serif;
+    font-size: 58px;
+    font-weight: normal;
+    line-height: 1.15;
+    letter-spacing: 2px;
+}
+
+.breeding-hero-content a {
+    display: inline-block;
+
+    margin-top: 35px;
+
+    color: #f5f1ea;
+
+    font-size: 11px;
+    letter-spacing: 2px;
+
+    border-bottom: 1px solid #f5f1ea;
+
+    padding-bottom: 8px;
+}
+
+
+/* =========================
+   BREEDING INTRO
+========================= */
+
+.breeding-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 90px;
+
+    padding: 120px 10%;
+
+    background-color: #f5f1ea;
+
+    align-items: center;
+}
+
+.breeding-intro-image {
+    height: 600px;
+    overflow: hidden;
+}
+
+.breeding-intro-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.breeding-intro-content {
+    max-width: 500px;
+}
+
+.breeding-intro-content > span {
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.breeding-intro-content h2 {
+    margin: 25px 0 35px;
+
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.breeding-intro-content p {
+    margin-bottom: 20px;
+
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   STALLIONS
+========================= */
+
+.stallions {
+    background-color: #241913;
+
+    color: #f5f1ea;
+
+    padding: 110px 10%;
+}
+
+.stallions-header {
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.stallions-header span {
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.stallions-header h2 {
+    margin-top: 25px;
+
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.stallion-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+.stallion-card {
+    background-color: #30221b;
+
+    overflow: hidden;
+}
+
+.stallion-image {
+    height: 480px;
+
+    overflow: hidden;
+}
+
+.stallion-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+.stallion-card:hover .stallion-image img {
+    transform: scale(1.04);
+}
+
+.stallion-info {
+    padding: 30px;
+}
+
+.stallion-info > span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.stallion-info h3 {
+    margin: 12px 0 10px;
+
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.stallion-info p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+.stallion-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(245, 241, 234, 0.25);
+}
+
+.stallion-bottom span {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.stallion-bottom a {
+    color: #f5f1ea;
+
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .breeding-hero {
+        height: 600px;
+    }
+
+    .breeding-hero-content h1 {
+        font-size: 38px;
+    }
+
+    .breeding-intro {
+        grid-template-columns: 1fr;
+
+        padding: 80px 8%;
+
+        gap: 50px;
+    }
+
+    .breeding-intro-image {
+        height: 450px;
+    }
+
+    .breeding-intro-content h2 {
+        font-size: 32px;
+    }
+
+    .stallions {
+        padding: 80px 8%;
+    }
+
+    .stallions-header h2 {
+        font-size: 32px;
+    }
+
+    .stallion-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stallion-image {
+        height: 450px;
+    }
+}

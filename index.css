@@ -4,8 +4,11 @@
 
 @import url(css/layout/hero.css);
 @import url(css/layout/about.css);
-@import url(css/layout/featureedhorse.css);
-@import url(css/layout/expertise.css);
-
 @import url(css/layout/aboutPage.css);
+
+@import url(css/layout/featuredHorse.css);
+@import url(css/layout/expertise.css);
 @import url(css/layout/Showhorse.css);
+@import url(css/layout/breeding.css);
+
+

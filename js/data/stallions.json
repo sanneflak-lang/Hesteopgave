@@ -1,0 +1,29 @@
+[
+  {
+    "name": "VALENTINO Z",
+    "breed": "KWPN",
+    "year": 2018,
+    "height": "172 CM",
+    "discipline": "DRESSAGE",
+    "studFee": "€1.500",
+    "image": "./assets/img/equoria_horse_card_2.png"
+  },
+  {
+    "name": "DON VINCENZO",
+    "breed": "KWPN",
+    "year": 2017,
+    "height": "175 CM",
+    "discipline": "DRESSAGE",
+    "studFee": "€1.200",
+    "image": "./assets/img/equoria_horse_card_1.png"
+  },
+  {
+    "name": "ARABELLA Z",
+    "breed": "HOLSTEINER",
+    "year": 2019,
+    "height": "170 CM",
+    "discipline": "JUMPING",
+    "studFee": "€1.350",
+    "image": "./assets/img/equoria_horse_card_3.png"
+  }
+]

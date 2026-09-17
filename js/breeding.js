@@ -11,14 +11,27 @@ const stallions = await response.json();
 
 app.innerHTML = `
     ${createHeader()}
-   ${createHero({
-     label: "BREEDING",
-     title: "WHERE GREATNESS BEGINS",
-     image: "./assets/img/Heste-Middelfart_2500x1667-1.jpg",
-     linkText: "EXPLORE STALLIONS ↓",
-     link: "#stallions",
-   })}
+    ${createHero({
+      label: "BREEDING",
+      title: "WHERE GREATNESS BEGINS",
+      image: "./assets/img/Heste-Middelfart_2500x1667-1.jpg",
+      linkText: "EXPLORE STALLIONS ↓",
+      link: "#stallions",
+    })}
     ${createBreedingIntro()}
     ${createStallionList(stallions)}
     ${createFooter()}
 `;
+
+const stallionCards = document.querySelectorAll(".stallion-card");
+console.log("ANTAL CARDS:", stallionCards.length);
+
+stallionCards.forEach((card) => {
+  card.addEventListener("click", () => {
+    const id = card.dataset.id;
+
+    const stallion = stallions.find((stallion) => stallion.id === id);
+
+    console.log("Valgt hingst:", stallion);
+  });
+});

@@ -11,7 +11,6 @@ export function createHeader(){
             <nav class="nav">
                 <a href="index.html">HOME</a>
                 <a href="about.html">ABOUT</a>
-                <a href="showHorse.html">SHOW HORSE</a>
                 <a href="breeding.html">BREEDING</a>
                 <a href="sales.html">SALES</a>
                 <a href="contact.html">CONTACT</a>

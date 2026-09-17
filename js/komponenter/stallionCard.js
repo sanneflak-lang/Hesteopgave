@@ -1,6 +1,6 @@
 export function createStallionCard(stallion) {
   return `
-        <article class="stallion-card">
+        <article class="stallion-card" data-id="${stallion.id}">
 
             <div class="stallion-image">
                 <img
@@ -23,9 +23,9 @@ export function createStallionCard(stallion) {
                 <div class="stallion-bottom">
                     <span>STUD FEE ${stallion.studFee}</span>
 
-                    <a href="#">
-                        VIEW STALLION →
-                    </a>
+                 <a href="./stallion.html?id=${stallion.id}">
+    VIEW STALLION →
+</a>
                 </div>
 
             </div>

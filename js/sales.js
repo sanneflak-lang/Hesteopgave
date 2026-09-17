@@ -34,25 +34,37 @@ const disciplineFilter = document.querySelector("#disciplineFilter");
 const breedFilter = document.querySelector("#breedFilter");
 const sexFilter = document.querySelector("#sexFilter");
 
+
 function filterHorses() {
   const disciplineValue = disciplineFilter.value;
   const breedValue = breedFilter.value;
   const sexValue = sexFilter.value;
 
   const filteredHorses = horses.filter((horse) => {
+    console.log("VALGT:", disciplineValue);
     const matchesDiscipline =
-      disciplineValue === "" || horse.discipline === disciplineValue;
+      disciplineValue === "" ||
+      horse.discipline.toUpperCase() === disciplineValue.toUpperCase();
 
-    const matchesBreed = breedValue === "" || horse.breed === breedValue;
+    const matchesBreed =
+      breedValue === "" ||
+      horse.breed.toUpperCase() === breedValue.toUpperCase();
 
-    const matchesSex = sexValue === "" || horse.sex === sexValue;
+    const matchesSex =
+      sexValue === "" || horse.sex.toUpperCase() === sexValue.toUpperCase();
 
     return matchesDiscipline && matchesBreed && matchesSex;
   });
 
+  
   document.querySelector("#horseGrid").innerHTML = filteredHorses
-    .map((horse) => createHorseCard(horse))
-    .join("");
+  .map((horse) => createHorseCard(horse))
+  .join("");
+  
+  console.log(
+    "KORT PÅ SIDEN:",
+    document.querySelectorAll("#horseGrid .horse-card").length,
+  );
 }
 
 disciplineFilter.addEventListener("change", filterHorses);

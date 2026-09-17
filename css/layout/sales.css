@@ -1,16 +1,18 @@
-/* SALES INTRO */
+/* =========================
+   SALES INTRO
+========================= */
 
 .sales-intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 90px;
-    padding: 120px 10%;
+    gap: 100px;
+    padding: 130px 10%;
     background-color: #f5f1ea;
     align-items: center;
 }
 
 .sales-intro-image {
-    height: 600px;
+    height: 620px;
     overflow: hidden;
 }
 
@@ -18,62 +20,195 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.8s ease;
+}
+
+.sales-intro-image:hover img {
+    transform: scale(1.025);
 }
 
 .sales-intro-content {
     max-width: 500px;
 }
 
-.sales-intro-content > span {
-    font-size: 11px;
+.sales-intro-content > span,
+.sales-philosophy-content > span,
+.sales-process-header > span {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
     letter-spacing: 4px;
+    color: #8d7650;
+    margin-bottom: 25px;
 }
 
-.sales-intro-content h2 {
-    margin: 25px 0 35px;
+.sales-intro-content h2,
+.sales-philosophy-content h2,
+.sales-process-header h2 {
     font-family: Georgia, serif;
-    font-size: 42px;
+    font-size: 44px;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 1.15;
+    margin: 0 0 35px;
+    color: #241913;
 }
 
-.sales-intro-content p {
-    margin-bottom: 20px;
+.sales-intro-content p,
+.sales-philosophy-content p,
+.sales-process-header p {
     font-family: Georgia, serif;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.8;
+    color: #51463f;
+    margin-bottom: 20px;
 }
 
 
-/* SALES FILTER */
+/* =========================
+   SALES PHILOSOPHY
+========================= */
 
-.sales-filter {
+.sales-philosophy {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 100px;
+    padding: 130px 10%;
     background-color: #241913;
     color: #f5f1ea;
-    padding: 100px 10%;
+    align-items: center;
+}
+
+.sales-philosophy-image {
+    height: 620px;
+    overflow: hidden;
+}
+
+.sales-philosophy-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s ease;
+}
+
+.sales-philosophy-image:hover img {
+    transform: scale(1.025);
+}
+
+.sales-philosophy-content {
+    max-width: 540px;
+}
+
+.sales-philosophy-content > span {
+    color: #b59a6a;
+}
+
+.sales-philosophy-content h2 {
+    color: #f5f1ea;
+}
+
+.sales-philosophy-content p {
+    color: rgba(245, 241, 234, 0.72);
+}
+
+
+/* =========================
+   SALES PROCESS
+========================= */
+
+.sales-process {
+    padding: 130px 10%;
+    background-color: #f5f1ea;
+    color: #241913;
+}
+
+.sales-process-header {
+    max-width: 700px;
+    margin: 0 auto 90px;
+    text-align: center;
+}
+
+.sales-process-header h2 {
+    margin-bottom: 30px;
+}
+
+.sales-process-header p {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.sales-process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid rgba(36, 25, 19, 0.25);
+}
+
+.sales-process-step {
+    padding: 35px 30px 20px;
+    border-right: 1px solid rgba(36, 25, 19, 0.2);
+}
+
+.sales-process-step:last-child {
+    border-right: none;
+}
+
+.sales-process-step > span {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #8d7650;
+}
+
+.sales-process-step h3 {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 28px 0 15px;
+}
+
+.sales-process-step p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #665b54;
+}
+
+
+/* =========================
+   SALES FILTER
+========================= */
+
+.sales-filter {
+    padding: 120px 10%;
+    background-color: #241913;
+    color: #f5f1ea;
 }
 
 .sales-filter-header {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
 }
 
 .sales-filter-header span {
-    font-size: 11px;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
     letter-spacing: 4px;
+    color: #b59a6a;
+    margin-bottom: 25px;
 }
 
 .sales-filter-header h2 {
-    margin-top: 25px;
     font-family: Georgia, serif;
-    font-size: 42px;
+    font-size: 44px;
     font-weight: normal;
+    margin: 0;
 }
 
 .filter-options {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 25px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -85,237 +220,127 @@
 }
 
 .filter-group label {
-    font-size: 10px;
-    letter-spacing: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: rgba(245, 241, 234, 0.65);
 }
 
 .filter-group select {
     width: 100%;
-    padding: 15px;
+    padding: 17px 15px;
     background-color: transparent;
     color: #f5f1ea;
-    border: 1px solid rgba(245, 241, 234, 0.4);
+    border: none;
+    border-bottom: 1px solid rgba(245, 241, 234, 0.35);
     font-family: Georgia, serif;
     font-size: 14px;
+    outline: none;
     cursor: pointer;
+}
+
+.filter-group select:focus {
+    border-bottom-color: #b59a6a;
 }
 
 .filter-group select option {
     color: #241913;
 }
 
-/* SALES PHILOSOPHY */
 
-.sales-philosophy {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 90px;
-    padding: 120px 10%;
-    background-color: #241913;
-    color: #f5f1ea;
-    align-items: center;
-}
+/* =========================
+   HORSE CARDS
+========================= */
 
-.sales-philosophy-image {
-    height: 600px;
-    overflow: hidden;
-}
-
-.sales-philosophy-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.sales-philosophy-content {
-    max-width: 500px;
-}
-
-.sales-philosophy-content > span {
-    font-size: 11px;
-    letter-spacing: 4px;
-}
-
-.sales-philosophy-content h2 {
-    margin: 25px 0 35px;
-    font-family: Georgia, serif;
-    font-size: 42px;
-    font-weight: normal;
-    line-height: 1.2;
-}
-
-.sales-philosophy-content p {
-    margin-bottom: 10px;
-    font-family: Georgia, serif;
-    font-size: 16px;
-    line-height: 1.7;
-}
-
-
-/* MOBILE */
-
-@media (max-width: 768px) {
-
-    .sales-philosophy {
-        grid-template-columns: 1fr;
-        padding: 80px 8%;
-        gap: 50px;
-    }
-
-    .sales-philosophy-image {
-        height: 450px;
-    }
-
-    .sales-philosophy-content h2 {
-        font-size: 32px;
-    }
-
-}
-
-/* SALES PROCESS */
-
-.sales-process {
-    padding: 120px 10%;
+.sales-filter + .horses {
     background-color: #f5f1ea;
-    color: #241913;
 }
-
-.sales-process-header {
-    max-width: 700px;
-    margin: 0 auto 80px;
-    text-align: center;
-}
-
-.sales-process-header span {
-    font-size: 11px;
-    letter-spacing: 4px;
-}
-
-.sales-process-header h2 {
-    margin: 25px 0 30px;
-    font-family: Georgia, serif;
-    font-size: 42px;
-    font-weight: normal;
-    line-height: 1.2;
-}
-
-.sales-process-header p {
-    font-family: Georgia, serif;
-    font-size: 16px;
-    line-height: 1.7;
-}
-
-
-.sales-process-steps {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-}
-
-.sales-process-step {
-    padding: 35px 25px;
-    border-top: 1px solid rgba(36, 25, 19, 0.35);
-}
-
-.sales-process-step > span {
-    font-size: 11px;
-    letter-spacing: 2px;
-}
-
-.sales-process-step h3 {
-    margin: 25px 0 15px;
-    font-family: Georgia, serif;
-    font-size: 22px;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
-.sales-process-step p {
-    font-family: Georgia, serif;
-    font-size: 14px;
-    line-height: 1.7;
-}
-
-
-/* HORSE CARD HOVER */
 
 .horse-card {
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    background-color: #f5f1ea;
+    transition:
+        transform 0.45s ease,
+        box-shadow 0.45s ease;
 }
 
 .horse-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 15px 35px rgba(36, 25, 19, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 18px 40px rgba(36, 25, 19, 0.12);
 }
 
 .horse-card img {
-    transition: transform 0.6s ease;
+    transition: transform 0.7s ease;
 }
 
 .horse-card:hover img {
-    transform: scale(1.04);
+    transform: scale(1.035);
 }
 
 .horse-card a {
-    transition: letter-spacing 0.3s ease;
+    transition:
+        letter-spacing 0.3s ease,
+        color 0.3s ease;
 }
 
 .horse-card:hover a {
     letter-spacing: 2px;
+    color: #8d7650;
 }
 
 
-/* MOBILE */
+/* =========================
+   MOBILE
+========================= */
 
 @media (max-width: 768px) {
+
+    .sales-intro,
+    .sales-philosophy {
+        grid-template-columns: 1fr;
+        gap: 55px;
+        padding: 80px 8%;
+    }
+
+    .sales-intro-image,
+    .sales-philosophy-image {
+        height: 480px;
+    }
+
+    .sales-intro-content h2,
+    .sales-philosophy-content h2,
+    .sales-process-header h2,
+    .sales-filter-header h2 {
+        font-size: 34px;
+    }
 
     .sales-process {
         padding: 80px 8%;
     }
 
     .sales-process-header {
-        margin-bottom: 50px;
-    }
-
-    .sales-process-header h2 {
-        font-size: 32px;
+        margin-bottom: 60px;
     }
 
     .sales-process-steps {
         grid-template-columns: 1fr;
-        gap: 20px;
     }
 
-}
-
-/* MOBILE */
-
-@media (max-width: 768px) {
-
-    .sales-intro {
-        grid-template-columns: 1fr;
-        padding: 80px 8%;
-        gap: 50px;
+    .sales-process-step {
+        border-right: none;
+        border-bottom: 1px solid rgba(36, 25, 19, 0.2);
+        padding: 30px 0;
     }
 
-    .sales-intro-image {
-        height: 450px;
-    }
-
-    .sales-intro-content h2 {
-        font-size: 32px;
+    .sales-process-step:last-child {
+        border-bottom: none;
     }
 
     .sales-filter {
         padding: 80px 8%;
     }
 
-    .sales-filter-header h2 {
-        font-size: 32px;
-    }
-
     .filter-options {
         grid-template-columns: 1fr;
+        gap: 30px;
     }
-
 }

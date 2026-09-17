@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "LUNA AF ROSENHOLM",
     "breed": "KWPN",
     "sex": "MARE",
@@ -7,9 +8,10 @@
     "height": "168 CM",
     "discipline": "DRESSAGE",
     "price": "€45.000",
-    "image": "./assets/img/equoria_horse_card_1.png"
+    "image": "./assets/img/sales1.png"
   },
   {
+    "id": 2,
     "name": "VALENTINO Z",
     "breed": "KWPN",
     "sex": "STALLION",
@@ -17,9 +19,10 @@
     "height": "172 CM",
     "discipline": "DRESSAGE",
     "price": "€80.000",
-    "image": "./assets/img/equoria_horse_card_2.png"
+    "image": "./assets/img/sales2.png"
   },
   {
+    "id": 3,
     "name": "ROSENHOLM'S LILY",
     "breed": "KWPN",
     "sex": "MARE",
@@ -27,9 +30,10 @@
     "height": "166 CM",
     "discipline": "JUMPING",
     "price": "€55.000",
-    "image": "./assets/img/equoria_horse_card_3.png"
+    "image": "./assets/img/sales3.png"
   },
   {
+    "id": 4,
     "name": "ARABELLA Z",
     "breed": "HOLSTEINER",
     "sex": "MARE",
@@ -37,9 +41,10 @@
     "height": "170 CM",
     "discipline": "JUMPING",
     "price": "€62.000",
-    "image": "./assets/img/equoria_horse_card_1.png"
+    "image": "./assets/img/sales4.png"
   },
   {
+    "id": 5,
     "name": "DON VINCENZO",
     "breed": "KWPN",
     "sex": "GELDING",
@@ -47,9 +52,10 @@
     "height": "175 CM",
     "discipline": "DRESSAGE",
     "price": "€48.000",
-    "image": "./assets/img/equoria_horse_card_2.png"
+    "image": "./assets/img/sales5.png"
   },
   {
+    "id": 6,
     "name": "ELLA ROSA",
     "breed": "HANNOVERANER",
     "sex": "MARE",
@@ -57,6 +63,61 @@
     "height": "165 CM",
     "discipline": "EVENTING",
     "price": "€38.000",
-    "image": "./assets/img/equoria_horse_card_3.png"
+    "image": "./assets/img/sales6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "BELLA ROSA Z",
+    "breed": "KWPN",
+    "sex": "MARE",
+    "age": 6,
+    "height": "167 CM",
+    "discipline": "DRESSAGE",
+    "price": "€52.000",
+    "image": "./assets/img/sales7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "CASALLINA",
+    "breed": "HOLSTEINER",
+    "sex": "MARE",
+    "age": 8,
+    "height": "171 CM",
+    "discipline": "JUMPING",
+    "price": "€68.000",
+    "image": "./assets/img/sales8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "LORD OF ROSE",
+    "breed": "KWPN",
+    "sex": "STALLION",
+    "age": 9,
+    "height": "174 CM",
+    "discipline": "DRESSAGE",
+    "price": "€92.000",
+    "image": "./assets/img/sales9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "SIERRA AF ROSENHOLM",
+    "breed": "HANNOVERANER",
+    "sex": "MARE",
+    "age": 5,
+    "height": "169 CM",
+    "discipline": "EVENTING",
+    "price": "€44.000",
+    "image": "./assets/img/sales10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "FREDERIK Z",
+    "breed": "HOLSTEINER",
+    "sex": "STALLION",
+    "age": 7,
+    "height": "173 CM",
+    "discipline": "JUMPING",
+    "price": "€75.000",
+    "image": "./assets/img/sales11.jpeg"
   }
 ]

@@ -104,6 +104,189 @@
     color: #241913;
 }
 
+/* SALES PHILOSOPHY */
+
+.sales-philosophy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+    padding: 120px 10%;
+    background-color: #241913;
+    color: #f5f1ea;
+    align-items: center;
+}
+
+.sales-philosophy-image {
+    height: 600px;
+    overflow: hidden;
+}
+
+.sales-philosophy-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sales-philosophy-content {
+    max-width: 500px;
+}
+
+.sales-philosophy-content > span {
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.sales-philosophy-content h2 {
+    margin: 25px 0 35px;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.sales-philosophy-content p {
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .sales-philosophy {
+        grid-template-columns: 1fr;
+        padding: 80px 8%;
+        gap: 50px;
+    }
+
+    .sales-philosophy-image {
+        height: 450px;
+    }
+
+    .sales-philosophy-content h2 {
+        font-size: 32px;
+    }
+
+}
+
+/* SALES PROCESS */
+
+.sales-process {
+    padding: 120px 10%;
+    background-color: #f5f1ea;
+    color: #241913;
+}
+
+.sales-process-header {
+    max-width: 700px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+.sales-process-header span {
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.sales-process-header h2 {
+    margin: 25px 0 30px;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.sales-process-header p {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+.sales-process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.sales-process-step {
+    padding: 35px 25px;
+    border-top: 1px solid rgba(36, 25, 19, 0.35);
+}
+
+.sales-process-step > span {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.sales-process-step h3 {
+    margin: 25px 0 15px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.sales-process-step p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* HORSE CARD HOVER */
+
+.horse-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.horse-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(36, 25, 19, 0.15);
+}
+
+.horse-card img {
+    transition: transform 0.6s ease;
+}
+
+.horse-card:hover img {
+    transform: scale(1.04);
+}
+
+.horse-card a {
+    transition: letter-spacing 0.3s ease;
+}
+
+.horse-card:hover a {
+    letter-spacing: 2px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .sales-process {
+        padding: 80px 8%;
+    }
+
+    .sales-process-header {
+        margin-bottom: 50px;
+    }
+
+    .sales-process-header h2 {
+        font-size: 32px;
+    }
+
+    .sales-process-steps {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+}
 
 /* MOBILE */
 

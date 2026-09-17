@@ -21,10 +21,9 @@ export function createHorseCard(horse) {
                 <div class="horse-bottom">
 
                     <span>${horse.price}</span>
-
-                    <a href="#">
-                        VIEW HORSE →
-                    </a>
+                    <a href="./horse.html?id=${horse.id}">
+                       VIEW HORSE →
+                   </a>
 
                 </div>
 

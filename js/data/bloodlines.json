@@ -1,0 +1,171 @@
+[
+  {
+    "id": "1",
+    "name": "VALENTINO Z",
+    "breed": "KWPN",
+    "discipline": "DRESSAGE",
+    "image": "./assets/img/hingst1.png",
+
+    "bloodline": {
+      "sire": {
+        "name": "VANDER Z",
+        "sire": "VOLTAIRE Z",
+        "dam": "RIVIERA"
+      },
+      "dam": {
+        "name": "ROSABELLA Z",
+        "sire": "ROMANOV",
+        "dam": "BELLA DONNA"
+      }
+    },
+
+    "approvals": [
+      {
+        "year": "2022",
+        "title": "KWPN Approved Stallion",
+        "event": "KWPN Stallion Licensing"
+      },
+      {
+        "year": "2023",
+        "title": "Elite Premium Stallion",
+        "event": "KWPN Performance Test"
+      },
+      {
+        "year": "2024",
+        "title": "International Breeding Stallion",
+        "event": "European Breeding Selection"
+      }
+    ],
+
+    "achievements": [
+      {
+        "year": "2023",
+        "title": "Young Dressage Stallion Champion"
+      },
+      {
+        "year": "2024",
+        "title": "Silver Medal",
+        "event": "Scandinavian Dressage Championships"
+      },
+      {
+        "year": "2025",
+        "title": "Dressage Stallion of the Year",
+        "event": "Equoria Elite Awards"
+      }
+    ]
+  },
+
+  {
+    "id": "2",
+    "name": "DON VINCENZO",
+    "breed": "KWPN",
+    "discipline": "DRESSAGE",
+    "image": "./assets/img/hingst2.png",
+
+    "bloodline": {
+      "sire": {
+        "name": "DON CARLOS",
+        "sire": "DONNERHALL",
+        "dam": "CARLOTTA"
+      },
+      "dam": {
+        "name": "VIVIENNE",
+        "sire": "VIVALDI",
+        "dam": "ROSE NOIR"
+      }
+    },
+
+    "approvals": [
+      {
+        "year": "2021",
+        "title": "KWPN Approved Stallion",
+        "event": "KWPN Stallion Licensing"
+      },
+      {
+        "year": "2022",
+        "title": "Elite Stallion Classification",
+        "event": "KWPN Performance Test"
+      },
+      {
+        "year": "2023",
+        "title": "Licensed Sport Stallion",
+        "event": "International Sport Horse Registry"
+      }
+    ],
+
+    "achievements": [
+      {
+        "year": "2022",
+        "title": "Performance Test Winner",
+        "event": "KWPN Stallion Test"
+      },
+      {
+        "year": "2024",
+        "title": "Grand Prix Dressage Winner",
+        "event": "Nordic Indoor Masters"
+      },
+      {
+        "year": "2025",
+        "title": "Elite Breeding Merit",
+        "event": "Equoria Breeding Collection"
+      }
+    ]
+  },
+
+  {
+    "id": "3",
+    "name": "ARABELLA Z",
+    "breed": "HOLSTEINER",
+    "discipline": "JUMPING",
+    "image": "./assets/img/hingst3.png",
+
+    "bloodline": {
+      "sire": {
+        "name": "ARGENTINO Z",
+        "sire": "ARGENTINUS",
+        "dam": "LUNA Z"
+      },
+      "dam": {
+        "name": "BELLA ROSA",
+        "sire": "BALOU DU ROET",
+        "dam": "ROSALIE"
+      }
+    },
+
+    "approvals": [
+      {
+        "year": "2022",
+        "title": "Holsteiner Approved Stallion",
+        "event": "Holsteiner Licensing Days"
+      },
+      {
+        "year": "2023",
+        "title": "Premium Jumping Stallion",
+        "event": "Holsteiner Stallion Approval"
+      },
+      {
+        "year": "2024",
+        "title": "European Jumping Breeding License",
+        "event": "European Sport Horse Registry"
+      }
+    ],
+
+    "achievements": [
+      {
+        "year": "2023",
+        "title": "Young Jumping Stallion Champion",
+        "event": "Holsteiner Championships"
+      },
+      {
+        "year": "2024",
+        "title": "1.45m International Winner",
+        "event": "Autumn Grand Prix Tour"
+      },
+      {
+        "year": "2025",
+        "title": "Gold Breeding Merit",
+        "event": "Equoria Elite Jumping Collection"
+      }
+    ]
+  }
+]

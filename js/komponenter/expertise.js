@@ -22,7 +22,7 @@ export function createExpertise() {
                         Discover exceptional horses.
                     </p>
 
-                    <a href="#">EXPLORE HORSES →</a>
+                    <a href="sales.html">EXPLORE HORSES →</a>
                 </article>
 
 
@@ -38,7 +38,9 @@ export function createExpertise() {
                         Explore the generations behind every horse.
                     </p>
 
-                    <a href="#">EXPLORE BLOODLINES →</a>
+                    <a href="./bloodlines.html">
+    EXPLORE BLOODLINES →
+</a>
                 </article>
 
 
@@ -54,7 +56,7 @@ export function createExpertise() {
                         Where exceptional bloodlines meet.
                     </p>
 
-                    <a href="#">EXPLORE BREEDING →</a>
+                    <a href="breeding.html">EXPLORE BREEDING →</a>
                 </article>
 
             </div>

@@ -41,9 +41,24 @@ app.innerHTML = `
             <h2>
                 STUD FEE ${stallion.studFee}
             </h2>
-<a href="./breedingBooking.html?id=${stallion.id}">
-    BESTIL BEDÆKNING →
-</a>
+
+<div class="stallion-links">
+
+    <a 
+        href="./bloodline.html?id=${stallion.id}"
+        style="display: block; width: fit-content; margin-bottom: 20px;"
+    >
+        EXPLORE BLOODLINES →
+    </a>
+
+    <a 
+        href="./breedingBooking.html?id=${stallion.id}"
+        style="display: block; width: fit-content;"
+    >
+        BESTIL BEDÆKNING →
+    </a>
+
+</div>
 
         </div>
 

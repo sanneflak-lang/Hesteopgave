@@ -1,0 +1,231 @@
+.bloodline-detail {
+    background-color: #f5f1ea;
+    color: #241913;
+    padding-bottom: 120px;
+
+    margin-top: 150px;
+}
+
+
+/* HEADER */
+
+.bloodline-detail-header {
+    text-align: center;
+    padding: 120px 20px 100px;
+}
+
+.bloodline-detail-header span {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: #8d7650;
+    margin-bottom: 25px;
+}
+
+.bloodline-detail-header h1 {
+    font-family: Georgia, serif;
+    font-size: 64px;
+    font-weight: normal;
+    margin: 0 0 20px;
+}
+
+.bloodline-detail-header p {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #665b54;
+}
+
+
+/* SECTION TITLES */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.section-title span {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: 4px;
+    color: #8d7650;
+    margin-bottom: 15px;
+}
+
+.section-title h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* PEDIGREE */
+
+.pedigree {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 110px;
+}
+
+.pedigree-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.pedigree-card {
+    background-color: #241913;
+    color: #f5f1ea;
+    padding: 45px;
+    min-height: 230px;
+}
+
+.pedigree-card > span {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: 4px;
+    color: #b59a6a;
+}
+
+.pedigree-card h3 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.pedigree-card p {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: rgba(245, 241, 234, 0.7);
+}
+
+
+/* APPROVALS */
+
+.approvals {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 110px;
+}
+
+.approval-list {
+    border-top: 1px solid rgba(36, 25, 19, 0.2);
+}
+
+.approval-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 30px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(36, 25, 19, 0.2);
+}
+
+.approval-item > span {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #8d7650;
+}
+
+.approval-item h3 {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0 0 8px;
+}
+
+.approval-item p {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #665b54;
+    margin: 0;
+}
+
+
+/* ACHIEVEMENTS */
+
+.achievements {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.achievement-list {
+    border-top: 1px solid rgba(36, 25, 19, 0.2);
+}
+
+.achievement-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 30px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(36, 25, 19, 0.2);
+}
+
+.achievement-item > span {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #8d7650;
+}
+
+.achievement-item h3 {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0 0 8px;
+}
+
+.achievement-item p {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #665b54;
+    margin: 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .bloodline-detail-header {
+        padding: 80px 20px 70px;
+    }
+
+    .bloodline-detail-header h1 {
+        font-size: 42px;
+    }
+
+    .section-title h2 {
+        font-size: 29px;
+    }
+
+    .pedigree {
+        padding-bottom: 80px;
+    }
+
+    .pedigree-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pedigree-card {
+        padding: 35px;
+    }
+
+    .approvals,
+    .achievements {
+        padding-bottom: 80px;
+    }
+
+    .approval-item,
+    .achievement-item {
+        grid-template-columns: 70px 1fr;
+        gap: 15px;
+    }
+}

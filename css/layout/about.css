@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 85px 100px;
-    gap: 80px;
+    padding: 145px 145px;
+    gap: 10px;
 }
 
 
@@ -49,4 +49,33 @@
     height: 565px;
 
     object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+
+    .about {
+        padding: 80px 8%;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .about-content span {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .about-content h2 {
+        font-size: 38px;
+        line-height: 1.15;
+        margin: 20px 0 25px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
 }

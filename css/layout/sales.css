@@ -287,6 +287,21 @@
     color: #8d7650;
 }
 
+.horse-card {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.horse-card img {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.horse-info {
+    margin: 0 !important;
+}
 
 /* =========================
    MOBILE

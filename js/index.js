@@ -8,16 +8,23 @@ import { createFooter } from "./komponenter/footer.js";
 const app = document.querySelector("#app");
 
 app.innerHTML = `
-    ${createHeader()}
-    ${createHero({
-      label: "EXCEPTIONAL EQUESTRIAN",
-      title: "WHERE EXCELLENCE BEGINS",
-      image: "./assets/img/Heste-Middelfart_2500x1667-1.jpg",
-      linkText: "EXPLORE HORSES",
-      link: "#",
-    })}
-    ${createAbout()}
-    ${createFeaturedHorses()}
-    ${createExpertise()}
-    ${createFooter()}
+${createHeader()}
+${createHero({
+  label: "EXCEPTIONAL EQUESTRIAN",
+  title: "WHERE EXCELLENCE BEGINS",
+  image: "./assets/img/Heste-Middelfart_2500x1667-1.jpg",
+  linkText: "EXPLORE HORSES",
+  link: "#",
+})}
+${createAbout()}
+${createFeaturedHorses()}
+${createExpertise()}
+${createFooter()}
 `;
+
+const burgerMenu = document.querySelector("#burgerMenu");
+const mobileNav = document.querySelector("#mobileNav");
+
+burgerMenu.addEventListener("click", () => {
+  mobileNav.classList.toggle("open");
+});

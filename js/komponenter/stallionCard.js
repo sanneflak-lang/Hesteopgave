@@ -23,6 +23,7 @@ export function createStallionCard(stallion) {
                 <div class="stallion-bottom">
                     <span>STUD FEE ${stallion.studFee}</span>
 
+
                  <a href="./stallion.html?id=${stallion.id}">
     VIEW STALLION →
 </a>

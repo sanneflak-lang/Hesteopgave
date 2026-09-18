@@ -59,19 +59,33 @@
 
 /* MOBILE */
 
+
 @media (max-width: 768px) {
 
     .hero {
         height: 600px;
     }
 
-    .hero-content h1 {
-        font-size: 38px;
+    .hero-content {
+        width: 88%;
     }
 
     .hero-content span {
-        font-size: 11px;
-        letter-spacing: 4px;
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+        line-height: 1.15;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+
+    .hero-content a {
+        margin-top: 30px;
+        font-size: 10px;
+        letter-spacing: 2px;
     }
 
 }

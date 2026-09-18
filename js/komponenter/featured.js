@@ -10,30 +10,34 @@ export function createFeaturedHorses() {
             <div class="horse-cards">
 
                 <article class="horse-card">
+                
                     <img 
-                        src="./assets/img/hvidhest2.jpeg"
+                        src="./assets/img/sales1.png"
                         alt="Luna af Rosenholm"
                     >
-
+                   <div class="text">
                     <h3>LUNA AF ROSENHOLM</h3>
 
                     <p>KWPN · MARE · 2019</p>
 
                     <span>€45.000</span>
+                       </div>
                 </article>
 
 
                 <article class="horse-card">
+
                     <img 
-                        src="./assets/img/hvidhest1.jpg"
+                        src="./assets/img/sales2.png"
                         alt="Valentino Z"
                     >
-
+                  <div class="text">
                     <h3>VALENTINO Z</h3>
 
                     <p>KWPN · STALLION · DRESSAGE</p>
 
                     <span>€80.000</span>
+                    </div>
                 </article>
 
             </div>

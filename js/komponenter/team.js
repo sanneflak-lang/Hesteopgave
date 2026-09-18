@@ -28,7 +28,7 @@ export function createTeam() {
                 <div class="team-card">
                     <div class="team-image">
                         <img
-                            src="./assets/img/pigeoghest.png"
+                            src="./assets/img/sales.jpeg"
                             alt="Equestrian"
                         >
                     </div>
